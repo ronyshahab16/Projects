@@ -5,9 +5,6 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 const videoCard = ({ videos }) => {
-//  if(!videos){
-//   return null
-//  }
 
  
 
