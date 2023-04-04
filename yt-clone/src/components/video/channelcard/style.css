@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cardContainer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #323232;
+    
+   
+   
+  position: relative;
+  /* z-index: -1; */
+  
+  }
+
+  .channelImg{
+    clip-path: circle();
+  }
+
+  .channelImgContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .detailsContainer{
+    text-align: center;
+      
+      
+     text-decoration: none;
+      padding: .4em 1em;
+      margin: 0;
+  }
+  
+  @media screen and (width <500px) {
+      .cardContainer{
+          width: 80vw;
+      }
+      .channelImg{
+          width: 75vw;
+      }
+  }
+   @media   ( width>500px) and (width<900px){
+      .cardContainer{
+          width: 46vw;
+         
+      }
+      .channelImg{
+          width: 43vw;
+      }
+   }
+
+
+
+   @media   ( width>900px) and (width<1000px){
+      .cardContainer{
+          width: 27vw;
+      }
+      .channelImg{
+          width: 24vw;
+      }
+   }
+  
+   @media (width>1000px) and (width<1200px) {
+      .cardContainer{
+          width: 20vw;
+      }
+      .channelImg{
+          width: 20vw;
+      }
+   }
+   @media (width>1200px) and (width<1620px) {
+      .cardContainer{
+          width: 21vw;
+      }
+      .channelImg{
+          width: 20vw;
+      }
+   }
+  
+   @media screen and (width>1620px) {
+        .cardContainer{
+            width: 20vw;
+        }
+
+        .channelImg{
+            width: 18vw;
+        }
+   }

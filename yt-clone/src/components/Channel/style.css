@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroBanner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    height: 260px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 10%, rgba(29,146,241,1) 95%);
+}
+
+.imgContainer{
+    position: relative;
+    top: 100px;
+}
+
+
+.videoFeedContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25vh;
+  
+}
+
+.videoGrid{
+   
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+/* .videoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 16px;
+    padding: 16px;
+  } */

@@ -1,0 +1,85 @@
+.sidebarButton {
+  background-color: #323232;
+
+  width: fit-content;
+  transition: 0.1s;
+}
+.sidebarButtons {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.sidebarButton {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  padding: 3px 10px;
+  /* margin: 10; */
+  
+}
+
+.sidebarButton:hover {
+  background-color: red;
+}
+
+.sidebarContainer {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: fit-content;
+  background-color: #323232;
+
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  height: 550px;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: auto;
+  background-color: #323232;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 100px;
+  background-color: grey;
+}
+
+@media  screen and (width<900px) {
+  .sidebarButtons{
+    
+    flex-direction: row;
+  }
+
+  
+
+  .container{
+    
+    height: fit-content;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  
+  .sidebarContainer{
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    z-index: 3;
+  }
+  
+}

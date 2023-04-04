@@ -1,0 +1,89 @@
+
+.cardContainers{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+
+}
+.channelTitleContainer{
+    
+    color: white;
+}
+
+.videoCardImgContainer{
+    
+display: none;
+    
+}
+
+.channelTitleMain{
+    text-decoration: none !important;
+
+}
+
+.channelTitleContainer:hover{
+    text-decoration: none !important;
+
+}
+
+
+.videCardDetailsContainer{
+    background-color: #323232;
+    height: 110px;
+    color: white;
+    padding: .4em 1em;
+    margin: 0;
+}
+
+@media screen and (width <500px) {
+    .cardContainer{
+        width: 80vw;
+    }
+    .videoCardImg{
+        width: 80vw;
+    }
+}
+ @media   ( width>500px) and (width<900px){
+    .cardContainer{
+        width: 44vw;
+    }
+    .videoCardImg{
+        width: 44vw;
+    }
+ }
+ @media   ( width>900px) and (width<1000px){
+    .cardContainer{
+        width: 25vw;
+    }
+    .videoCardImg{
+        width: 25vw;
+    }
+ }
+
+ @media (width>1000px) and (width<1200px) {
+    .cardContainer{
+        width: 20vw;
+    }
+    .videoCardImg{
+        width: 20vw;
+    }
+ }
+ @media (width>1200px) and (width<1620px) {
+    .cardContainer{
+        width: 20vw;
+    }
+    .videoCardImg{
+        width: 20vw;
+    }
+ }
+
+ @media   ( width>1620px) {
+    .cardContainer{
+        width: 15vw;
+    }
+    .videoCardImg{
+        width: 100%;
+    }
+ }
+
+
